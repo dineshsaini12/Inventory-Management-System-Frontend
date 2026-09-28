@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import {
   BarChart3,
   ChevronDown,
@@ -17,6 +18,13 @@ import { money, prettyDate } from "../utils/format";
 import { PageHeading, Badge, Empty } from "../components/ui";
 import "../App.css";
 export function Dashboard({ data, navigate }) {
+  const [currentTime, setCurrentTime] = useState(() => new Date());
+  useEffect(() => {
+    const timer = setInterval(() => setCurrentTime(new Date()), 60_000);
+    return () => clearInterval(timer);
+  }, []);
+  const hour = currentTime.getHours();
+  const greeting = hour < 12 ? "Good morning" : hour < 17 ? "Good afternoon" : "Good evening";
   const stock = data.products.reduce((a, p) => a + p.stock, 0),
     low = data.products.filter((p) => p.stock <= 10),
     revenue = data.orders.reduce((a, o) => a + o.total, 0),
@@ -32,7 +40,7 @@ export function Dashboard({ data, navigate }) {
     <>
       <PageHeading
         eyebrow="OVERVIEW"
-        title="Good morning, Alex"
+        title={`${greeting}, Demo Manager`}
         description="Here’s what’s happening across your inventory today."
         action={
           <button

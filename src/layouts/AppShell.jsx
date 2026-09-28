@@ -113,10 +113,10 @@ export function AppShell({ data, setData, onLogout, notify }) {
             className="profile transition-colors duration-200 hover:bg-white/5"
             onClick={onLogout}
           >
-            <span className="avatar">AM</span>
+            <span className="avatar">DM</span>
             <span className="profile-meta">
-              <b>Alex Morgan</b>
-              <small>Workspace manager</small>
+              <b>Demo Manager</b>
+              <small>Demo login · manager</small>
             </span>
             <LogOut size={16} className="logout-icon" />
           </button>
@@ -154,7 +154,7 @@ export function AppShell({ data, setData, onLogout, notify }) {
               })}
             </span>
             <button className="top-avatar" title="Sign out" onClick={onLogout}>
-              AM
+              DM
             </button>
           </div>
         </header>
@@ -195,7 +195,7 @@ export function AppShell({ data, setData, onLogout, notify }) {
           </Routes>
           <footer className="page-footer">
             <span>
-              Stockroom <b>·</b> Inventory management demo
+              Stockroom <b>·</b> Inventory management System
             </span>
             <span>All changes saved automatically</span>
           </footer>
