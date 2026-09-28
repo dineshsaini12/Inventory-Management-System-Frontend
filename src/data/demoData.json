@@ -1,0 +1,403 @@
+{
+  "products": [
+    {
+      "id": "PRD-1001",
+      "name": "Wireless Mouse",
+      "sku": "ACC-001",
+      "category": "Accessories",
+      "price": 799,
+      "stock": 42
+    },
+    {
+      "id": "PRD-1002",
+      "name": "Mechanical Keyboard",
+      "sku": "ACC-002",
+      "category": "Accessories",
+      "price": 3499,
+      "stock": 18
+    },
+    {
+      "id": "PRD-1003",
+      "name": "USB-C Hub 7-in-1",
+      "sku": "ACC-003",
+      "category": "Accessories",
+      "price": 2299,
+      "stock": 8
+    },
+    {
+      "id": "PRD-1004",
+      "name": "Laptop Stand",
+      "sku": "OFF-014",
+      "category": "Office",
+      "price": 1599,
+      "stock": 24
+    },
+    {
+      "id": "PRD-1005",
+      "name": "Noise Cancelling Headphones",
+      "sku": "AUD-008",
+      "category": "Audio",
+      "price": 6499,
+      "stock": 6
+    },
+    {
+      "id": "PRD-1006",
+      "name": "Webcam Full HD",
+      "sku": "VID-002",
+      "category": "Electronics",
+      "price": 2899,
+      "stock": 31
+    },
+    {
+      "id": "PRD-1007",
+      "name": "Portable SSD 1TB",
+      "sku": "STO-010",
+      "category": "Storage",
+      "price": 7999,
+      "stock": 13
+    },
+    {
+      "id": "PRD-1008",
+      "name": "Desk Lamp LED",
+      "sku": "OFF-021",
+      "category": "Office",
+      "price": 1299,
+      "stock": 0
+    },
+    {
+      "id": "PRD-1009",
+      "name": "Bluetooth Speaker",
+      "sku": "AUD-014",
+      "category": "Audio",
+      "price": 2199,
+      "stock": 27
+    },
+    {
+      "id": "PRD-1010",
+      "name": "Ergonomic Office Chair",
+      "sku": "OFF-034",
+      "category": "Office",
+      "price": 12499,
+      "stock": 9
+    },
+    {
+      "id": "PRD-1011",
+      "name": "Power Bank 20000mAh",
+      "sku": "MOB-005",
+      "category": "Electronics",
+      "price": 1899,
+      "stock": 56
+    },
+    {
+      "id": "PRD-1012",
+      "name": "Monitor 27-inch QHD",
+      "sku": "DSP-007",
+      "category": "Electronics",
+      "price": 21999,
+      "stock": 11
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "SUP-201",
+      "name": "Apex Tech Distributors",
+      "phone": "+91 98765 43210",
+      "email": "orders@apextech.in",
+      "address": "Nehru Place, New Delhi"
+    },
+    {
+      "id": "SUP-202",
+      "name": "Mahalaxmi Office Supplies",
+      "phone": "+91 98201 44321",
+      "email": "sales@mahalaxmi.co.in",
+      "address": "Andheri East, Mumbai"
+    },
+    {
+      "id": "SUP-203",
+      "name": "ByteWave Electronics",
+      "phone": "+91 98450 88221",
+      "email": "hello@bytewave.in",
+      "address": "Electronic City, Bengaluru"
+    },
+    {
+      "id": "SUP-204",
+      "name": "Sound & Vision India",
+      "phone": "+91 98300 12678",
+      "email": "supply@soundvision.in",
+      "address": "Salt Lake, Kolkata"
+    },
+    {
+      "id": "SUP-205",
+      "name": "Pioneer Wholesale Co.",
+      "phone": "+91 98740 55661",
+      "email": "orders@pioneerwholesale.in",
+      "address": "Banjara Hills, Hyderabad"
+    }
+  ],
+  "customers": [
+    "Priya Sharma",
+    "Arjun Mehta",
+    "Kavya Nair",
+    "Rohan Gupta",
+    "Ananya Iyer",
+    "Vikram Joshi",
+    "Meera Patel"
+  ],
+  "purchases": [
+    {
+      "id": "PO-4821",
+      "supplier": "Apex Tech Distributors",
+      "supplierId": "SUP-201",
+      "productName": "Wireless Mouse",
+      "productId": "PRD-1001",
+      "quantity": 30,
+      "unitPrice": 560,
+      "total": 16800,
+      "status": "Received",
+      "daysAgo": 1,
+      "expectedDaysFromNow": -1
+    },
+    {
+      "id": "PO-4818",
+      "supplier": "Mahalaxmi Office Supplies",
+      "supplierId": "SUP-202",
+      "productName": "Laptop Stand",
+      "productId": "PRD-1004",
+      "quantity": 12,
+      "unitPrice": 1100,
+      "total": 13200,
+      "status": "Pending",
+      "daysAgo": 2,
+      "expectedDaysFromNow": 3
+    },
+    {
+      "id": "PO-4802",
+      "supplier": "ByteWave Electronics",
+      "supplierId": "SUP-203",
+      "productName": "Portable SSD 1TB",
+      "productId": "PRD-1007",
+      "quantity": 10,
+      "unitPrice": 6200,
+      "total": 62000,
+      "status": "Received",
+      "daysAgo": 9,
+      "expectedDaysFromNow": -7
+    },
+    {
+      "id": "PO-4751",
+      "supplier": "Sound & Vision India",
+      "supplierId": "SUP-204",
+      "productName": "Bluetooth Speaker",
+      "productId": "PRD-1009",
+      "quantity": 20,
+      "unitPrice": 1650,
+      "total": 33000,
+      "status": "Received",
+      "daysAgo": 24,
+      "expectedDaysFromNow": -22
+    },
+    {
+      "id": "PO-4610",
+      "supplier": "Pioneer Wholesale Co.",
+      "supplierId": "SUP-205",
+      "productName": "Monitor 27-inch QHD",
+      "productId": "PRD-1012",
+      "quantity": 8,
+      "unitPrice": 17800,
+      "total": 142400,
+      "status": "Received",
+      "daysAgo": 101,
+      "expectedDaysFromNow": -99
+    },
+    {
+      "id": "PO-4308",
+      "supplier": "Apex Tech Distributors",
+      "supplierId": "SUP-201",
+      "productName": "Power Bank 20000mAh",
+      "productId": "PRD-1011",
+      "quantity": 40,
+      "unitPrice": 1390,
+      "total": 55600,
+      "status": "Received",
+      "daysAgo": 250,
+      "expectedDaysFromNow": -248
+    },
+    {
+      "id": "PO-4204",
+      "supplier": "Mahalaxmi Office Supplies",
+      "supplierId": "SUP-202",
+      "productName": "Desk Lamp LED",
+      "productId": "PRD-1008",
+      "quantity": 16,
+      "unitPrice": 900,
+      "total": 14400,
+      "status": "Cancelled",
+      "daysAgo": 420,
+      "expectedDaysFromNow": -417
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-9082",
+      "customer": "Priya Sharma",
+      "productName": "Wireless Mouse",
+      "productId": "PRD-1001",
+      "quantity": 2,
+      "total": 1598,
+      "status": "Completed",
+      "payment": "Paid",
+      "daysAgo": 0
+    },
+    {
+      "id": "ORD-9079",
+      "customer": "Arjun Mehta",
+      "productName": "Mechanical Keyboard",
+      "productId": "PRD-1002",
+      "quantity": 1,
+      "total": 3499,
+      "status": "Confirmed",
+      "payment": "Pending",
+      "daysAgo": 1
+    },
+    {
+      "id": "ORD-9072",
+      "customer": "Kavya Nair",
+      "productName": "USB-C Hub 7-in-1",
+      "productId": "PRD-1003",
+      "quantity": 1,
+      "total": 2299,
+      "status": "Completed",
+      "payment": "Paid",
+      "daysAgo": 3
+    },
+    {
+      "id": "ORD-9033",
+      "customer": "Rohan Gupta",
+      "productName": "Webcam Full HD",
+      "productId": "PRD-1006",
+      "quantity": 2,
+      "total": 5798,
+      "status": "Completed",
+      "payment": "Paid",
+      "daysAgo": 8
+    },
+    {
+      "id": "ORD-8965",
+      "customer": "Ananya Iyer",
+      "productName": "Bluetooth Speaker",
+      "productId": "PRD-1009",
+      "quantity": 3,
+      "total": 6597,
+      "status": "Completed",
+      "payment": "Paid",
+      "daysAgo": 19
+    },
+    {
+      "id": "ORD-8714",
+      "customer": "Vikram Joshi",
+      "productName": "Monitor 27-inch QHD",
+      "productId": "PRD-1012",
+      "quantity": 1,
+      "total": 21999,
+      "status": "Completed",
+      "payment": "Paid",
+      "daysAgo": 67
+    },
+    {
+      "id": "ORD-8402",
+      "customer": "Meera Patel",
+      "productName": "Power Bank 20000mAh",
+      "productId": "PRD-1011",
+      "quantity": 4,
+      "total": 7596,
+      "status": "Completed",
+      "payment": "Paid",
+      "daysAgo": 172
+    },
+    {
+      "id": "ORD-8012",
+      "customer": "Priya Sharma",
+      "productName": "Ergonomic Office Chair",
+      "productId": "PRD-1010",
+      "quantity": 1,
+      "total": 12499,
+      "status": "Completed",
+      "payment": "Paid",
+      "daysAgo": 342
+    }
+  ],
+  "inventory": [
+    {
+      "id": "INV-8824",
+      "productName": "Wireless Mouse",
+      "productId": "PRD-1001",
+      "change": -2,
+      "type": "CUSTOMER_ORDER",
+      "reference": "ORD-9082",
+      "daysAgo": 0
+    },
+    {
+      "id": "INV-8822",
+      "productName": "Wireless Mouse",
+      "productId": "PRD-1001",
+      "change": 30,
+      "type": "PURCHASE",
+      "reference": "PO-4821",
+      "daysAgo": 1
+    },
+    {
+      "id": "INV-8817",
+      "productName": "USB-C Hub 7-in-1",
+      "productId": "PRD-1003",
+      "change": -1,
+      "type": "CUSTOMER_ORDER",
+      "reference": "ORD-9072",
+      "daysAgo": 3
+    },
+    {
+      "id": "INV-8801",
+      "productName": "Portable SSD 1TB",
+      "productId": "PRD-1007",
+      "change": 10,
+      "type": "PURCHASE",
+      "reference": "PO-4802",
+      "daysAgo": 9
+    },
+    {
+      "id": "INV-8744",
+      "productName": "Bluetooth Speaker",
+      "productId": "PRD-1009",
+      "change": -3,
+      "type": "CUSTOMER_ORDER",
+      "reference": "ORD-8965",
+      "daysAgo": 19
+    },
+    {
+      "id": "INV-8602",
+      "productName": "Monitor 27-inch QHD",
+      "productId": "PRD-1012",
+      "change": 8,
+      "type": "PURCHASE",
+      "reference": "PO-4610",
+      "daysAgo": 101
+    },
+    {
+      "id": "INV-8481",
+      "productName": "Power Bank 20000mAh",
+      "productId": "PRD-1011",
+      "change": 40,
+      "type": "PURCHASE",
+      "reference": "PO-4308",
+      "daysAgo": 250
+    },
+    {
+      "id": "INV-8200",
+      "productName": "Ergonomic Office Chair",
+      "productId": "PRD-1010",
+      "change": -1,
+      "type": "CUSTOMER_ORDER",
+      "reference": "ORD-8012",
+      "daysAgo": 342
+    }
+  ]
+}
