@@ -13,7 +13,7 @@ export function Login({ onLogin }) {
             <Boxes />
           </span>
           <span>
-            Stockroom<span className="brand-dot">.</span>
+            Inventory Management System<span className="brand-dot">.</span>
           </span>
         </div>
         <div className="art-copy">
